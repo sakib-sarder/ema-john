@@ -5,10 +5,10 @@ import logo from "../../../images/Logo.svg";
 const Header = () => {
   return (
     <nav className="header">
-      <img src={logo} />
+      <img style={{width:'140px', height:'auto'}} src={logo} />
       <div>
         <a href="/shop">Shop</a>
-        <a href="/order">Order</a>
+        <a href="/order">Orders</a>
         <a href="/inventory">Inventory</a>
         <a href="/iogin">Login</a>
       </div>
